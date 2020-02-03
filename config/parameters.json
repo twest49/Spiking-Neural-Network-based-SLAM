@@ -1,0 +1,81 @@
+{
+    "neuron_params": {
+        "e_rev_E": 0.0,
+        "e_rev_I": -100.0,
+        "tau_syn_E": 2.0,
+        "tau_syn_I": 2.0,
+        "v_rest": -70.0,
+        "v_reset": -80.0,
+        "v_thresh": -65.0,
+        "tau_refrac": 2.0,
+        "tau_m": 10,
+        "cm": 0.2
+    },
+    "neuron_params_2": {
+        "e_rev_E": 0.0,
+        "e_rev_I": -100.0,
+        "tau_syn_E": 2.7,
+        "tau_syn_I": 4.5,
+        "v_rest": -70.0,
+        "v_reset": -72.0,
+        "v_thresh": -68.0,
+        "tau_refrac": 1.0,
+        "tau_m": 0.5,
+        "cm": 0.2
+    },    
+    "cm":0.2,
+    "tau_syn_E": 2.7,
+    "v_thresh": -67.0,
+
+    "neuron_params_3": {
+        "e_rev_E": 0.0,
+        "e_rev_I": -100.0,
+        "tau_syn_E": 2.0,
+        "tau_syn_I": 2.0,
+        "v_rest": -70.0,
+        "v_reset": -80.0,
+        "v_thresh": -63.0,
+        "tau_refrac": 3.0,
+        "tau_m": 10,
+        "cm": 0.2
+    },
+    "wtaParams": {
+        "synEx": 0.04,
+        "synIn": -0.02,
+        "synTrigger": 0.05
+    },
+    "synTrigger":0.09,
+    "synIn": -0.045,
+
+    "stParams": {
+        "synEx": 0.033,
+        "synIn": -0.06
+    },
+    "synEx": 0.03,
+    "synIn": -0.05,
+
+    "common": {
+        "delay": 1.0,
+        "start": 1.0
+    },
+    "psParams": {
+        "weight": 0.001,
+        "delay": 1,
+        "A_minus": -0.015,
+        "A_plus": 0.015,
+        "tau_minus": 5,
+        "tau_plus": 5,
+        "w_max": 0.002,
+        "w_min": 0.0
+    },
+    "A_plus": 0.015,
+    "A_minus": -0.003,
+    "tau_minus": 5,
+    "tau_plus": 5,
+    "others":{
+        "conSynEx": 0.025,
+        "conDelay": 11.0,
+        "posSynEx": 0.009
+    },
+    "posSynEx":0.013
+}
