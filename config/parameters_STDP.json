@@ -23,10 +23,6 @@
         "tau_m": 0.5,
         "cm": 0.2
     },    
-    "cm":0.2,
-    "tau_syn_E": 2.7,
-    "v_thresh": -67.0,
-
     "neuron_params_3": {
         "e_rev_E": 0.0,
         "e_rev_I": -100.0,
@@ -44,15 +40,10 @@
         "synIn": -0.02,
         "synTrigger": 0.05
     },
-    "synTrigger":0.09,
-    "synIn": -0.045,
-
     "stParams": {
         "synEx": 0.033,
         "synIn": -0.05
     },
-    "synEx": 0.03,
-
     "common": {
         "delay": 1.0,
         "start": 1.0
@@ -67,13 +58,9 @@
         "w_max": 0.0015,
         "w_min": 0.0
     },
-    "A_plus": 0.015,
-    "A_minus": -0.003,
-    "tau_minus": 5,
-    "tau_plus": 5,
     "others":{
         "conSynEx": 0.025,
-        "posSynEx": 0.009
-    },
-    "posSynEx":0.013
+        "posSynEx": 0.009,
+	"conDelay": 11.0
+    }
 }

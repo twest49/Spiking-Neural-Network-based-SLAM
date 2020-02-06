@@ -241,7 +241,7 @@ parameterType SpikingNetwork::readParameters()
 {
 
         // Reading the configuration file
-        Json config = readFromFile("../config/parameters.json");
+        Json config = readFromFile("../config/parameters_STDP.json");
 
         parameterType parameter;
 
